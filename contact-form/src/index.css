@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    font-family: 'Karla', sans-serif;
+  }
+
+  span {
+    @apply text-green-600
+  }
+
+  .formField {
+    @apply flex flex-col space-y-2 w-full
+  }
+
+  label {
+    @apply text-gray-600
+  }
+
+  input {
+    @apply border border-gray-300 rounded-md p-3
+  }
+
+  .radioField {
+    @apply flex flex-row items-center space-x-2 border border-gray-300 p-3 rounded-md
+  }
+
+  textarea {
+    @apply border border-gray-300 rounded-md w-full p-3 min-h-[150px]
+  }
+}

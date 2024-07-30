@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    html {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .inputText {
+        position: relative;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2.2rem;
+        color: white;
+        text-shadow: 5px 2px #000;
+    }
+}
