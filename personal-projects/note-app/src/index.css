@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    font-family: 'Karla', sans-serif;
+  }
+
+  span, p {
+    @apply text-gray-500 font-[300] text-[0.8rem]
+  }
+
+  input[type='text']::placeholder {
+    @apply text-center
+  }
+
+  textarea::placeholder {
+    text-align: center; /* Center the placeholder text horizontally */
+  }
+}
